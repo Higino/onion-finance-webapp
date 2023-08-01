@@ -11,7 +11,7 @@ export default function Hero2({ heading2badge, image, infoArea }) {
     <>
       <section className="relative pb-20">
         <Skew />
-        <div className="container mx-auto px-4 pt-20 bg-white">
+        <div className="container mx-auto px-4 bg-white">
           <Heading2Badge {...heading2badge} />
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-4/12 ml-auto mr-auto px-4">

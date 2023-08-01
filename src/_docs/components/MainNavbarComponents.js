@@ -34,15 +34,7 @@ export default function NavbarComponents() {
                   to="/finance"
                   className="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
                 >
-                  Loans
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/cash"
-                  className="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
-                >
-                  Cash Advance
+                  Financing
                 </Link>
               </li>
               <li>
@@ -58,7 +50,7 @@ export default function NavbarComponents() {
                   to="/components"
                   className="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
                 >
-                  Sponsorship Procurement
+                  Sponsorship
                 </Link>
               </li>
               <li>
@@ -66,7 +58,7 @@ export default function NavbarComponents() {
                   to="/components"
                   className="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
                 >
-                  Networking Events
+                  Influencer Events
                 </Link>
               </li>
             </ul>

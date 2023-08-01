@@ -10,7 +10,6 @@ export default function HeaderVideoTitle({
   title,
   subtitle,
   buttonText,
-  buttonSubText,
   buttonIcon,
   buttonColor,
   skew,
@@ -18,7 +17,7 @@ export default function HeaderVideoTitle({
   return (
     <>
       <div className="p-0 flex items-center overflow-hidden relative bg-black min-h-screen-75">
-        <div className="absolute w-full bg-indigo-900 h-full z-1 opacity-50 top-0 left-0"></div>
+        <div className="absolute w-full bg-indigo-500 h-full z-1 opacity-30 top-0 left-0"></div>
         <video
           playsInline="playsinline"
           autoPlay="autoplay"
@@ -41,9 +40,6 @@ export default function HeaderVideoTitle({
                 <i className={buttonIcon + " mr-2"}></i>
                 {buttonText}
               </Button>
-              <p className="mt-4 text-sm text-white opacity-75">
-                {buttonSubText}
-              </p>
             </div>
           </div>
         </div>
