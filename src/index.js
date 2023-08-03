@@ -23,6 +23,7 @@ import Login1 from "views/auth/Login1.js";
 import Login2 from "views/auth/Login2.js";
 import Register1 from "views/auth/Register1.js";
 import Register2 from "views/auth/Register2.js";
+import PreRegister from "views/preregister/PreRegister.js";
 import Reset from "views/auth/Reset.js";
 // // blog
 import BlogPost from "views/blog/BlogPost.js";
@@ -131,6 +132,19 @@ ReactDOM.render(
           </React.Fragment>
         )}
       />
+      <Route
+        path="/preregister"
+        exact
+        render={() => (
+          <React.Fragment>
+            <NavbarComponents />
+            <div className="pt-17">
+              <PreRegister />
+            </div>
+          </React.Fragment>
+        )}
+      />
+
       <Route
         path="/register-1"
         exact

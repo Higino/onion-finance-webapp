@@ -4,7 +4,6 @@ import { useLocation } from "react-router-dom";
 // sections
 import Hero3 from "components/Sections/Presentation/Heroes/Hero3.js";
 import Hero1 from "components/Sections/Presentation/Heroes/Hero1.js";
-import Testimonies from "components/Sections/Presentation/Heroes/Hero4.js";
 import Teams1 from "components/Sections/Presentation/Teams/Teams1.js";
 // components
 //import HeaderVideoTitle from "components/Headers/Presentation/HeaderVideoTitle.js";
@@ -14,7 +13,6 @@ import FooterSmall from "components/Footers/Landing/FooterSmall.js";
 
 import hero3 from "./_texts/hero3finance.js";
 import hero1 from "./_texts/hero1Loans.js";
-import testimoniesData from "./_texts/hero4finance.js";
 // texts for components as props
 import headervideotitle from "./_texts/headerfinancevideotitle.js";
 import footersmall from "_texts/presentation/footers/footersmall.js";
@@ -27,8 +25,7 @@ const props = {
     subtitle: "Famous Testimonies",
     title: "Everyone has a story, and everyone's story share the same problem",
     description:
-      "Being a creoator is a business and like anyother business it needs money to grow. Traditional finance don't understand you, we do. \
-      Connect your social media accounts and apply for a loan, Earn points and use them to get better rates, choose that cutting edge software and we buy the licence for you. Rent our equipment and buy later. Your choice, your way.",
+      "Being a creoator is a business and like anyother business it needs money to grow. Traditional finance don't understand you, we do. Connect your social media accounts and apply for a loan, Earn points and use them to get better rates, choose that cutting edge software and we buy the licence for you. Rent our equipment and buy later. Your choice, your way.",
     alignment: "center",
   },
   infoAreas: [
