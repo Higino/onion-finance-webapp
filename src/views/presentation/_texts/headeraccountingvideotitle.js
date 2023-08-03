@@ -1,5 +1,5 @@
 const textProps = {
-  video: require("assets/videos/Lights - 26607.mp4").default,
+  video: require("assets/videos/Lights-26607.mp4").default,
   title: "Accounting Services for Creators",
   subtitle:
     "Creators operate within a distinct financial framework, and our tax consultants are intimately familiar with it.Enhance your tax benefits and alleviate your concerns by teaming up with accounting professionals who've walked the path and tackle it routinely.",

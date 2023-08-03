@@ -25,8 +25,6 @@ jobs:
       
       - name: Build app
         run: npm run build
-      - name: Export app
-        run: npm run export
       
       - name: Configure AWS CLI
         env:
@@ -39,4 +37,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_EC2_METADATA_DISABLED: true
-        run: aws s3 sync out s3://media-personal-assistant.com --delete
+        run: aws s3 sync build s3://media-personal-assistant.com --delete

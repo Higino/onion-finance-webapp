@@ -55,7 +55,7 @@ export default function NavbarComponents() {
               </li>
               <li>
                 <Link
-                  to="/components"
+                  to="/events"
                   className="hover:opacity-75 lg:text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-150 ease-in-out text-blueGray-800"
                 >
                   Influencer Events

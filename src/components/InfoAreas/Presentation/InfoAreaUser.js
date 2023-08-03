@@ -20,7 +20,7 @@ export default function InfoAreaUser({ image, name, jobTitle, socialLinks }) {
       />
       <div className="pt-6 text-center">
         <h5 className="text-xl font-bold">{name}</h5>
-        <p className="mt-1 text-sm text-blueGray-400 uppercase font-bold">
+        <p className="mt-1 text-sm text-blueGray-400 font-bold">
           {jobTitle}
         </p>
         <div className="mt-6">

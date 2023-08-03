@@ -3,12 +3,17 @@ import PropTypes from "prop-types";
 
 // components
 import Skew from "../../../components/Skews/Skew.js";
+import Button from "../../../components/Elements/Button.js";
+import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
 
 export default function HeaderImageTitleCenter({
   bgImage,
   title,
   description,
   skewColor,
+  buttonText,
+  buttonColor,
+  buttonIcon
 }) {
   return (
     <>
@@ -19,7 +24,7 @@ export default function HeaderImageTitleCenter({
             backgroundImage: "url('" + bgImage + "')",
           }}
         >
-          <span className="w-full h-full absolute opacity-75 bg-black"></span>
+          <span className="w-full h-full absolute opacity-65 bg-black"></span>
         </div>
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
@@ -28,6 +33,14 @@ export default function HeaderImageTitleCenter({
                 <h1 className="text-white font-semibold text-5xl">{title}</h1>
                 <p className="mt-4 text-lg text-blueGray-300">{description}</p>
               </div>
+              <p className="mt-2 text-lg text-white opacity-75 mb-16">
+              </p>
+              <Button color={buttonColor} size="lg">
+                <Link to="/register-1">
+                <i className={buttonIcon + " mr-2"}></i>
+                {buttonText}
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
@@ -47,6 +60,22 @@ HeaderImageTitleCenter.propTypes = {
   bgImage: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  buttonText: PropTypes.string.isRequired,
+  buttonIcon: PropTypes.string,
+  buttonColor: PropTypes.oneOf([
+    "light",
+    "dark",
+    "blueGray",
+    "red",
+    "orange",
+    "amber",
+    "emerald",
+    "teal",
+    "lightBlue",
+    "indigo",
+    "purple",
+    "pink",
+  ]),
   skewColor: PropTypes.oneOf([
     "blueGray",
     "red",
