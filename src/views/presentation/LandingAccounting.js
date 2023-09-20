@@ -10,7 +10,7 @@ import HeaderVideoTitle from "components/Headers/Presentation/HeaderVideoTitle.j
 import FooterSmall from "components/Footers/Landing/FooterSmall.js";
 // texts for sections as props
 import AdditionalServicesData from "./_texts/hero2additionalservices.js";
-import hero3 from "./_texts/hero3finance.js";
+import hero3 from "./_texts/perkspreregisterTextProps.js";
 
 // texts for components as props
 import headervideotitle from "./_texts/headeraccountingvideotitle.js";

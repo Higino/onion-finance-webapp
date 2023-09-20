@@ -2,14 +2,14 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 // components
-import NavbarLinks from "components/Navbars/NavbarLinks.js";
-import CardLoginRegister from "components/Cards/Auth/CardLoginRegister.js";
-import PreFooterLarge from "components/PreFooters/PreFooterLarge.js";
+//import NavbarLinks from "components/Navbars/NavbarLinks.js";
+import CardLoginRegister from "../../components/Cards/Auth/CardLoginRegister.js";
+import PreFooterLarge from "../../components/PreFooters/PreFooterLarge.js";
 import FooterSmall from "components/Footers/Landing/FooterSmall.js";
 // texts
-import navbarlinkslanding1 from "_texts/presentation/navbars/navbarlinkslanding1.js";
-import cardregister from "./Preregister_data.js";
-import prefooterlargereset from "_texts/auth/prefooters/prefooterlargereset.js";
+//import navbarlinkslanding1 from "_texts/presentation/navbars/navbarlinkslanding1.js";
+import cardloginregister from "./Preregister_data.js";
+import prefooterlargereset from "./prefooterlargereset.js";
 import footersmallreset from "_texts/auth/footers/footersmallreset.js";
 
 export default function Register2() {
@@ -32,12 +32,12 @@ export default function Register2() {
         <div className="py-12 container mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="mx-auto px-4 relative w-full lg:w-8/12">
-              <CardLoginRegister {...cardregister} />
+              <CardLoginRegister {...cardloginregister}/>
             </div>
           </div>
         </div>
       </div>
-      {/* <PreFooterLarge {...prefooterlargereset} /> */}
+      <PreFooterLarge {...prefooterlargereset} />
       <FooterSmall {...footersmallreset} />
     </>
   );

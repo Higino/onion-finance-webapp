@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 // components
 import Button from "../../../components/Elements/Button.js";
 import Skew from "../../../components/Skews/Skew.js";
+import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
 
 export default function HeaderVideoTitle({
   video,
@@ -37,8 +38,10 @@ export default function HeaderVideoTitle({
                 {subtitle}
               </h4>
               <Button color={buttonColor} size="lg">
-                <i className={buttonIcon + " mr-2"}></i>
-                {buttonText}
+                <Link to="/preregister">
+                  <i className={buttonIcon + " mr-2"}></i>
+                  {buttonText}
+                </Link>
               </Button>
             </div>
           </div>

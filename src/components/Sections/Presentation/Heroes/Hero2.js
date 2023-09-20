@@ -9,7 +9,7 @@ import InfoAreaIconTitleListColor from "../../../../components/InfoAreas/Present
 export default function Hero2({ heading2badge, image, infoArea }) {
   return (
     <>
-      <section className="relative pb-20">
+      <section className="relative pb-20 ">
         <Skew />
         <div className="container mx-auto px-4 bg-white">
           <Heading2Badge {...heading2badge} />

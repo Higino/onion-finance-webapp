@@ -36,7 +36,7 @@ export default function HeaderImageTitleCenter({
               <p className="mt-2 text-lg text-white opacity-75 mb-16">
               </p>
               <Button color={buttonColor} size="lg">
-                <Link to="/register-1">
+                <Link to="/preregister">
                 <i className={buttonIcon + " mr-2"}></i>
                 {buttonText}
                 </Link>

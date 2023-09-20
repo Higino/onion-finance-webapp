@@ -48,7 +48,6 @@ import AboutUs from "views/presentation/AboutUs.js";
 import ContactUs from "views/presentation/ContactUs.js";
   // Influencers Finance Presentation pages
 import LandingFinance from "views/presentation/LandingFinance.js";
-import LandingAccounting from "views/presentation/LandingAccounting.js";
 import LandingCreatorEvents from "views/presentation/LandingCreatorEvents.js";
 // Product Pages - STOP
 
@@ -361,18 +360,6 @@ ReactDOM.render(
             <NavbarComponents />
             <div className="pt-17">
               <LandingFinance />
-            </div>
-          </React.Fragment>
-        )}
-      />
-      <Route
-        path="/accounting"
-        exact
-        render={() => (
-          <React.Fragment>
-            <NavbarComponents />
-            <div className="pt-17">
-              <LandingAccounting />
             </div>
           </React.Fragment>
         )}

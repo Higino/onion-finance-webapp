@@ -11,11 +11,11 @@ import HeaderImageTitleCenter from "components/Headers/Presentation/HeaderImageT
 import FooterSmall from "components/Footers/Landing/FooterSmall.js";
 // texts for sections as props
 
-import hero3 from "./_texts/hero3finance.js";
-import hero1 from "./_texts/hero1Loans.js";
+import hero3 from "./_texts/perkspreregisterTextProps.js";
+import hero1 from "./_texts/loansFinanceTextprops.js";
 import testimoniesData from "./_texts/hero4finance.js";
 // texts for components as props
-import headervideotitle from "./_texts/headerfinancevideotitle.js";
+import headervideotitle from "./_texts/headerfinanceviewTextprops.js";
 import footersmall from "_texts/presentation/footers/footersmall.js";
 
 export default function LandingSponsorship() {

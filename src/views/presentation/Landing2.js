@@ -18,7 +18,7 @@ import hero5 from "_texts/presentation/heroes/hero5.js";
 import pricing1 from "_texts/presentation/pricing/pricing1.js";
 // texts for components as props
 import navbarlinkslanding2 from "_texts/presentation/navbars/navbarlinkslanding2.js";
-import headervideotitle from "_texts/presentation/headers/headervideotitle.js";
+import headervideotitle from "../../_texts/presentation/headers/headervideotitle.js";
 import prefooterlarge from "_texts/presentation/prefooters/prefooterlarge.js";
 import footersmall from "_texts/presentation/footers/footersmall.js";
 
